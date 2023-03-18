@@ -1,3 +1,7 @@
+#!/bin/bash
+
+echo "Remove all gruops, users and folders" 
+
 userdel -rf carlos
 userdel -rf maria
 userdel -rf joao
@@ -16,3 +20,5 @@ rm -rf sec/
 groupdel GRP_ADM
 groupdel GRP_VEN
 groupdel GRP_SEC
+
+echo "Finish commands"

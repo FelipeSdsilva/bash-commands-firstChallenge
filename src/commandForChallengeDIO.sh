@@ -1,4 +1,6 @@
-!/bin/bash
+#!/bin/bash
+
+echo "Create a folders, groups, folders and restricty for respective groups" 
 
 #Create directory.
 mkdir /publico /adm /ven /sec
@@ -31,3 +33,5 @@ chmod 770 /ven
 
 chown root:GRP_SEC /sec
 chmod 770 /sec
+
+echo "Finish all process"
